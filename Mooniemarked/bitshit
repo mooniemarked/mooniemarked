@@ -1,0 +1,36 @@
+[Write]
+-System instructions
+
+;echo "# mooniemarked" >> README.md
+;git init
+;git add README.md
+;git commit -m "first commit"
+;git branch -M main
+;git remote add origin https://github.com/mooniemarked/mooniemarked.git
+;git push -u origin main
+))
+/
+
+In
+:Get 
+{new client seed =} 
+>addTokenvalues
+String
+
+()
+Construct
+> new system pathway.
+> Find updated info
+Re-claim ALL, lostInfo;
+Re-claim ALL, lostFUNDS;
+}BitcoinPaymentURI bitcoinPaymentURI = new BitcoinPaymentURI.Builder() 
+newAddress - .address("1B3a9UVLm9szyTMxESGrWLTn3oCnb9w1K7")
+	.address("175tWpb8K1S7NmH4Zx6rewF9WQrcZv24n5W") 
+	.amount(500,000,000) 
+	:(Btc)
+
+.label("mooniemarkedArtz") 	
+.message("Donation for project") 	.parameter("foo", "bar") 	.requiredParameter("fiz", "biz") 	.build();
+
+ Fix and debug > new system information
+:Amend
